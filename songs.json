@@ -1,0 +1,46 @@
+{
+  "songs": [
+    {
+      "song": "Here Is Gone",
+      "artist": "Goo Goo Dolls",
+      "album": "Gutterflower",
+      "genre": "Alt"
+    },
+    {
+      "song": "Upper Egypt",
+      "artist": "The Roots",
+      "album": "Dilla Joints",
+      "genre": "Soul"
+    },
+    {
+      "song": "My Only Swerving",
+      "artist": "El Ten Eleven",
+      "album": "El Ten Eleven",
+      "genre": "Elctr"
+    },
+    {
+      "song": "Pusha Man",
+      "artist": "Curtis Mayfield",
+      "album": "Superfly",
+      "genre": "Soul"
+    },
+    {
+      "song": "Breakfast",
+      "artist": "Curren$y",
+      "album": "Pilot Talk",
+      "genre": "HipHop"
+    },
+    {
+      "song": "Fragments of Time",
+      "artist": "Daft Punk",
+      "album": "Random Access Memories",
+      "genre": "Pop"
+    },
+    {
+      "song": "In A Sentimental Mood",
+      "artist": "Ellington & Cultrane",
+      "album": "Ellington & Coltrane",
+      "genre": "Jazz"
+    }
+  ]
+}
