@@ -7,10 +7,6 @@ app.controller('DetailsCtrl', function($scope, $routeParams, dataFactory){
         console.log(val.songs);
         let songs = val.songs
         $scope.selectedItem = songs[$scope.id]
-    }).then(dataFactory.getSecond().then((val) => {
-        let moresongs = val.songs
-        $scope.moreselected = moresongs[$scope.id]
-    }))
-
+    })
     // $scope.songs =
 })

@@ -48,6 +48,55 @@
       "album": "Ellington & Coltrane",
       "genre": "Jazz",
       "id": "6"
+    },
+    {
+      "song": "Legs",
+      "artist": "ZZ Top",
+      "album": "Eliminator",
+      "genre": "Rock",
+      "id": "7"
+    },
+    {
+      "song": "The Logical Song",
+      "artist": "Supertramp",
+      "album": "Breakfast",
+      "genre": "Rock",
+      "id": "8"
+    },
+    {
+      "song": "Another Brick in the Wall",
+      "artist": "Pink Floyd",
+      "album": "The Wall",
+      "genre": "Rock",
+      "id": "9"
+    },
+    {
+      "song": "Welcome to the Jungle",
+      "artist": "Guns & Roses",
+      "album": "Appetite for Destruction",
+      "genre": "Rock",
+      "id": "10"
+    },
+    {
+      "song": "Ironic",
+      "artist": "Lava lamp",
+      "album": "Alanis Morisette",
+      "genre": "Jagged Little Pill",
+      "id": "11"
+    },
+    {
+      "song": "Buffalo",
+      "artist": "Toro y Mio",
+      "album": "What For?",
+      "genre": "Alt",
+      "id" : "12"
+    },
+    {
+      "song": "A Walk",
+      "artist": "Tycho",
+      "album": "Dive",
+      "genre": "Elctr",
+      "id": "13"
     }
   ]
 }
