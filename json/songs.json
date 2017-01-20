@@ -4,43 +4,99 @@
       "song": "Here Is Gone",
       "artist": "Goo Goo Dolls",
       "album": "Gutterflower",
-      "genre": "Alt"
+      "genre": "Alt",
+      "id": "0"
     },
     {
       "song": "Upper Egypt",
       "artist": "The Roots",
       "album": "Dilla Joints",
-      "genre": "Soul"
+      "genre": "Soul",
+      "id": "1"
     },
     {
       "song": "My Only Swerving",
       "artist": "El Ten Eleven",
       "album": "El Ten Eleven",
-      "genre": "Elctr"
+      "genre": "Elctr",
+      "id": "2"
     },
     {
       "song": "Pusha Man",
       "artist": "Curtis Mayfield",
       "album": "Superfly",
-      "genre": "Soul"
+      "genre": "Soul",
+      "id": "3"
     },
     {
       "song": "Breakfast",
       "artist": "Curren$y",
       "album": "Pilot Talk",
-      "genre": "HipHop"
+      "genre": "HipHop",
+      "id": "4"
     },
     {
       "song": "Fragments of Time",
       "artist": "Daft Punk",
       "album": "Random Access Memories",
-      "genre": "Pop"
+      "genre": "Pop",
+      "id": "5"
     },
     {
       "song": "In A Sentimental Mood",
       "artist": "Ellington & Cultrane",
       "album": "Ellington & Coltrane",
-      "genre": "Jazz"
+      "genre": "Jazz",
+      "id": "6"
+    },
+    {
+      "song": "Legs",
+      "artist": "ZZ Top",
+      "album": "Eliminator",
+      "genre": "Rock",
+      "id": "7"
+    },
+    {
+      "song": "The Logical Song",
+      "artist": "Supertramp",
+      "album": "Breakfast",
+      "genre": "Rock",
+      "id": "8"
+    },
+    {
+      "song": "Another Brick in the Wall",
+      "artist": "Pink Floyd",
+      "album": "The Wall",
+      "genre": "Rock",
+      "id": "9"
+    },
+    {
+      "song": "Welcome to the Jungle",
+      "artist": "Guns & Roses",
+      "album": "Appetite for Destruction",
+      "genre": "Rock",
+      "id": "10"
+    },
+    {
+      "song": "Ironic",
+      "artist": "Lava lamp",
+      "album": "Alanis Morisette",
+      "genre": "Jagged Little Pill",
+      "id": "11"
+    },
+    {
+      "song": "Buffalo",
+      "artist": "Toro y Mio",
+      "album": "What For?",
+      "genre": "Alt",
+      "id" : "12"
+    },
+    {
+      "song": "A Walk",
+      "artist": "Tycho",
+      "album": "Dive",
+      "genre": "Elctr",
+      "id": "13"
     }
   ]
 }

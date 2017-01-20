@@ -1,0 +1,14 @@
+<h1>Songs</h1>
+
+
+<div ng-repeat="listItem in songs" ng-if="determineCard(listItem.id)" class="card col m12">
+    <div class="row">
+        <h4 class="col s11">{{listItem.song}}<a href="/#!/song-details/{{listItem.id}}"><i class="material-icons">info_outline</i></a></h4>
+        <p class="col s4">{{listItem.artist}}</p>
+        <p class="col s4">{{listItem.album}}</p>
+        <p class="col s4">{{listItem.genre}}</p>
+    </div>
+</div>
+
+<button type="button" ng-if="!flag" ng-click="toggle()" class="btn showmore">More Songs</button>
+<button type="button" ng-if="flag" ng-click="toggle()" class="btn hidemore">Hide More Songs</button>

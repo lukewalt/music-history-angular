@@ -1,0 +1,58 @@
+
+
+h1 {
+    text-align: center;
+    color: rgb(138, 255, 244);
+    font-weight: 600;
+}
+
+.card {
+    margin: 1% 0;
+    height: 100px;
+    border: 2px solid rgb(138, 255, 244);
+    overflow: scroll;
+}
+
+.btn {
+    width: 100%;
+    margin: 5% 0;
+    color: #2b2e3b;
+}
+
+.btn:hover {
+    background-color: rgb(138, 255, 244);
+
+}
+
+a {
+    color: #ffad6e;
+}
+
+p {
+    margin: 0 auto;
+}
+
+.detailDisp {
+
+    text-align: center;
+    color: rgb(3, 32, 117);
+    min-height: 500px;
+    padding: 10%;
+    border: 5px solid white;
+    background-color: white;
+    opacity: .9;
+    border: 2px solid rgb(138, 255, 244);
+
+}
+
+i {
+    margin-left: 5%;
+}
+
+body {
+    background-image: url("/img/Helix-nebula-space-stars-explosion-brilliance-backgrounds-1920x1080.jpg");
+    opacity: 0.9;
+    background-size: cover;
+    font-family: 'Kanit', sans-serif;
+
+}

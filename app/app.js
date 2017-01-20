@@ -1,1 +1,1 @@
-var app = angular.module("musicHistory", ['ngRoute']);
+var app = angular.module("music-history", ['ngRoute']);
