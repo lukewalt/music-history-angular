@@ -6,6 +6,13 @@ app.factory('dataFactory', ($http) => {
                 .then((response) => {
                     return response.data
                 })
+        },
+        getSecond () {
+            return $http
+                .get(`/json/more-songs.json`)
+                .then((response) => {
+                    return response.data
+                })
         }
     }
 })
