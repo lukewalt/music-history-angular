@@ -1,15 +1,12 @@
 app.controller('SongCtrl', function($scope, $routeParams, $location, dataFactory){
     console.log("Using SonglistCtrl");
-    console.log(dataFactory)    ;
 
     dataFactory.getSongs().then((val)=>{
-        console.log(val.songs);
         $scope.songs = val.songs
+        console.log($scope.songs);
     }).then(dataFactory.getSecond().then((val) => {
-            console.log(val.songs);
-            $scope.moresongs = val.songs
-        }))
-
+        $scope.moresongs = val.songs
+    }))
 
     $scope.morecards = false;
     $scope.hideMmoreSongsButton = false
@@ -27,5 +24,9 @@ app.controller('SongCtrl', function($scope, $routeParams, $location, dataFactory
         $scope.moreSongsButton = true;
     }
 
-    $scope.seeInfo = () => $location.url(`/song-details`)
+    $scope.seeInfo = ($event) => {
+        console.log($event.currentTarget.childNodes);
+        // $scope.songClicked = $event.currentTarget.
+        // $location.url(`/song-details/${$scope.songClicked}`);
+    }
 })

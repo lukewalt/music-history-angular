@@ -1,18 +1,18 @@
 <h1>Songs</h1>
 
-<div ng-click="seeInfo()" ng-repeat="listItem in songs" class="card col m6">
+<div ng-repeat="listItem in songs" class="card col m6">
     <div class="row">
-        <h4
-         class="col s12">{{listItem.song}}</h3>
+        <h4 class="col s12">{{listItem.song}}</h4>
         <p class="col s6">{{listItem.artist}}</p>
+        <a href="/#!/song-details/{{listItem.id}}">Info</a>
     </div>
 </div>
 
 <div ng-repeat="dot in moresongs" ng-show="morecards" class="ng-hide card col m6">
     <div class="row">
-        <h4
-        class="col s12">{{dot.song}}</h3>
+        <h4 class="col s12">{{dot.song}}</h4>
         <p class="col s6">{{dot.artist}}</p>
+        <a href="/#!/song-details/{{dot.id}}">Info</a>
     </div>
 </div>
 <button type="button" ng-show="moreSongsButton" ng-click="showMoreSongs()" class="btn ng-hide">More Songs</button>

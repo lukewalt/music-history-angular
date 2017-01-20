@@ -24,3 +24,16 @@ h1 {
     background-color: rgb(138, 255, 244);
 
 }
+
+a {
+    color: #ffad6e;
+}
+
+p {
+    margin: 0 auto;
+}
+
+
+.detailDisp {
+    color: white;
+}
